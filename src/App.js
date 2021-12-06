@@ -83,7 +83,7 @@ function DisplayCountries(props) {
       <p>Status: {status ? status : 'Empty Data'}</p>
       <p>Currencies: {getCurrencies(currencies)} ({getCurrencies2(currencies)})</p>
       <p>Language : {getLanguage(languages).join(', ')}</p>
-      <p>Location: <a href={maps.googleMaps ? maps.googleMaps : 'Empty Data'} target="_blank" rel='noreferrer'> google map of county</a>  </p>
+      <p>Location: <a href={maps.googleMaps ? maps.googleMaps : 'Empty Data'} target="_blank" rel='noreferrer'> google map of county</a></p>
     </div>
   )
 }
