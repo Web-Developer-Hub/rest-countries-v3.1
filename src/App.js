@@ -26,7 +26,7 @@ function CoutryLoad() {
       <div className="mainDiv">
         {countries.map((country) => <DisplayCountries data={country} key={country.name.common}></DisplayCountries>)}
       </div>
-      <div style={{ textAlign: 'center', marginTop: '30px', marginBottom: '30px' }}>All rights reversed.Copyright © 2021 Habibor-Rahaman.com</div>
+      <div style={{ textAlign: 'center', marginTop: '30px', marginBottom: '30px' }}>All rights reversed.Copyright © 2021 Habibor-Rahaman.com </div>
     </div>
 
   )
